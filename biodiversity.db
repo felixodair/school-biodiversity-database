@@ -1,11 +1,11 @@
 CREATE TABLE species (
-  speciies_id INTEGER PRIMARY KEY,
+  species_id INTEGER PRIMARY KEY,
   species_name TEXT NOT NULL,
   category TEXT NOT NULL
 );
 
 CREATE TABLE locations (
-  speciies_id INTEGER PRIMARY KEY,
+  species_id INTEGER PRIMARY KEY,
   species_name TEXT NOT NULL,
   habitat TEXT NOT NULL
 );
