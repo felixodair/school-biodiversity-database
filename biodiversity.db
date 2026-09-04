@@ -17,5 +17,5 @@ CREATE TABLE observations (
   date_observed TEXT NOT NULL,
   quantity INTEGER NOT NULL,
   FOREIGN KEY (species_id) REFERENCES species(species_id),
-  FOREIGN KEY (location_id) REFRENCES location(location_id)
+  FOREIGN KEY (location_id) REFERENCES locations(location_id)
 );
