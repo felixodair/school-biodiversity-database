@@ -5,8 +5,8 @@ CREATE TABLE species (
 );
 
 CREATE TABLE locations (
-  species_id INTEGER PRIMARY KEY,
-  species_name TEXT NOT NULL,
+  location_id INTEGER PRIMARY KEY,
+  location_name TEXT NOT NULL,
   habitat TEXT NOT NULL
 );
 
