@@ -47,4 +47,4 @@ Through this project I developed my understanding of:
 
     I used the error messages and online sources to identify problems, leading to me changing them and testing them until they worked.
 
-    For example, towards the start, I encoutered and error message 
+    For example, towards the start, I encoutered and error message along the lines of duplicatd data. I seached up the error message and began understadnging what it meant. I had already inputed the table data into SQL which I was 
