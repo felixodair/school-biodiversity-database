@@ -1,0 +1,21 @@
+CREATE TABLE species (
+  species_id INTEGER PRIMARY KEY,
+  species_name TEXT NOT NULL,
+  category TEXT NOT NULL
+);
+
+CREATE TABLE locations (
+  location_id INTEGER PRIMARY KEY,
+  location_name TEXT NOT NULL,
+  habitat TEXT NOT NULL
+);
+
+CREATE TABLE observations (
+  observation_id INTEGER PRIMARY KEY,
+  species_id INTEGER NOT NULL,
+  location_id INTEGER NOT NULL,
+  date_observed TEXT NOT NULL,
+  quantity INTEGER NOT NULL,
+  FOREIGN KEY (species_id) REFERENCES species(species_id),
+  FOREIGN KEY (location_id) REFERENCES locations(location_id)
+);
