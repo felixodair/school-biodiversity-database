@@ -47,4 +47,19 @@ Through this project I developed my understanding of:
 
     I used the error messages and online sources to identify problems, leading to me changing them and testing them until they worked.
 
-    For example, towards the start, I encoutered and error message along the lines of duplicatd data. I seached up the error message and began understadnging what it meant. I had already inputed the table data into SQL which I was 
+    For example, towards the start, I encoutered and error message along the lines of duplicatd data, specifically, "unique constraint failed". I seached up the error message and began understadnging what it meant. I got an answer of having to input "DELETE FROM species". This corrected my data and enabled me to add sample data.
+
+  ## What I would improve#
+
+    If I developed the project further, I could add:
+
+    -more locations
+    -more species
+    -A larger database
+    -More complex queries
+    -Visualisations of the results
+    -Additional environemtal information
+
+  ## Why I created it 
+
+    I wanted to develop practical SQL and database skills while working on a subject that conncts with my interest in Biology and Geography
