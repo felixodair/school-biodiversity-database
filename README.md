@@ -36,3 +36,15 @@ Through this project I developed my understanding of:
     Records the species observed, location, date adn quantity. 
 
     The observations table uses ID's to connect the species and locations tables.
+
+  ## Sample data
+
+    The data in this project is fictional sample data created for learning purposes. It is not intended to represent a real biodiversity survey.
+
+  ## Problem solving
+
+    During the project, I encountered errors while writing SQL queries.
+
+    I used the error messages and online sources to identify problems, leading to me changing them and testing them until they worked.
+
+    For example, towards the start, I encoutered and error message 
